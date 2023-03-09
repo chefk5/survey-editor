@@ -40,9 +40,7 @@ const PageControl = (props: Props) => {
       display="flex"
       height="100%"
     >
-      <Button onClick={() => addPage(blankPage)}>
-        Add page {pages.length + 1}
-      </Button>
+      <Button onClick={() => addPage(blankPage)}>Add page</Button>
     </Box>
   )
 }

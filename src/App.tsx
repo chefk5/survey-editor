@@ -12,11 +12,11 @@ function App() {
 
   return (
     <>
-      <ToggleColor />
-      <Box marginX={5}>
+      {/* <ToggleColor /> */}
+      <Box marginX={'20%'} marginY={10}>
         <Header />
         {pages.map((page, index) => (
-          <Page page={page} index={index} key={index.toString()} />
+          <Page page={page} index={index} key={index} />
         ))}
         <PageControl />
       </Box>
